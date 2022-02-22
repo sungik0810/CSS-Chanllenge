@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+
+.background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(118, 191, 194);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 10vw;
+  height: 5vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 250px;
+  animation: circleanimation 3s ease-in-out infinite;
+}
+@keyframes circleanimation {
+  0% {
+    transform: rotate(0turn);
+  }
+  50% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.circleone {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circletwo {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circlethree {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.bar {
+  position: relative;
+  width: 90px;
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+  padding: 0px 50px;
+}
+
+@keyframes baranimation {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.barone {
+  width: 13px;
+  height: 50px;
+  background-color: white;
+  animation: baranimation 1.5s ease-in-out infinite;
+  animation-delay: 150ms;
+}
+
+.bartwo {
+  width: 13px;
+  height: 50px;
+  background-color: white;
+  animation: baranimation 1.5s ease-in-out infinite;
+  animation-delay: 300ms;
+}
+.barthree {
+  width: 13px;
+  height: 50px;
+  background-color: white;
+  animation: baranimation 1.5s ease-in-out infinite;
+  animation-delay: 450ms;
+}
+.barfour {
+  width: 13px;
+  height: 50px;
+  background-color: white;
+  animation: baranimation 1.5s ease-in-out infinite;
+  animation-delay: 600ms;
+}
+.barfive {
+  width: 13px;
+  height: 50px;
+  background-color: white;
+  animation: baranimation 1.5s ease-in-out infinite;
+  animation-delay: 750ms;
+}
